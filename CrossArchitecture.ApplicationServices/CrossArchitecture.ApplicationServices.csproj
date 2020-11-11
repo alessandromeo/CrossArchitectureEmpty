@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CrossArchitecture.ApplicationServicesInterface\CrossArchitecture.ApplicationServices.Interface.csproj" />
+    <ProjectReference Include="..\CrossArchitecture.CoreServicesInterface\CrossArchitecture.CoreServices.Interface.csproj" />
+    <ProjectReference Include="..\CrossArchitecture.InfrastructureInterface\CrossArchitecture.Infrastructure.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
