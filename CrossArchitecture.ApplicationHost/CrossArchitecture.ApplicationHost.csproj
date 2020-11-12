@@ -6,8 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CrossArchitecture.ApplicationInterface\CrossArchitecture.ApplicationInterface.csproj" />
-    <ProjectReference Include="..\CrossArchitecture.ApplicationServices.IRing\CrossArchitecture.ApplicationServices.IRing.csproj" />
+    <ProjectReference Include="..\CompositionChain\CrossArchitecture.ApplicationServices.IntegrationRing\CrossArchitecture.ApplicationServices.IntegrationRing.csproj" />
   </ItemGroup>
-
 
 </Project>

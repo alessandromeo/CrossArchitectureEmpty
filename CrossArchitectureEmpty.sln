@@ -31,15 +31,24 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.Applicati
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Application Interface", "04 - Application Interface", "{049D92D9-4145-401C-A85E-8286E2D37B73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossArchitecture.ApplicationInterface", "CrossArchitecture.ApplicationInterface\CrossArchitecture.ApplicationInterface.csproj", "{F66BD27A-7FF8-4D7E-98BA-13605DB5D344}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.ApplicationInterface", "CrossArchitecture.ApplicationInterface\CrossArchitecture.ApplicationInterface.csproj", "{F66BD27A-7FF8-4D7E-98BA-13605DB5D344}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.CoreServices.URing", "CrossArchitecture.CoreServices.URing\CrossArchitecture.CoreServices.URing.csproj", "{003BBEE0-D3F2-44AE-8FDA-F803B1E4B563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.CoreServices.UnitRing", "CompositionChain\CrossArchitecture.CoreServices.UnitRing\CrossArchitecture.CoreServices.UnitRing.csproj", "{003BBEE0-D3F2-44AE-8FDA-F803B1E4B563}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.Infrastructure.IRing", "CrossArchitecture.Infrastructure.IRing\CrossArchitecture.Infrastructure.IRing.csproj", "{0947C209-9D3D-4E1B-B719-9786A9E9F6DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.Infrastructure.IntegrationRing", "CompositionChain\CrossArchitecture.Infrastructure.IntegrationRing\CrossArchitecture.Infrastructure.IntegrationRing.csproj", "{0947C209-9D3D-4E1B-B719-9786A9E9F6DB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.ApplicationServices.URing", "CrossArchitecture.ApplicationServices.URing\CrossArchitecture.ApplicationServices.URing.csproj", "{F1B8A97C-0345-4ADA-B9A2-DD07629B1CB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.ApplicationServices.UnitRing", "CompositionChain\CrossArchitecture.ApplicationServices.UnitRing\CrossArchitecture.ApplicationServices.UnitRing.csproj", "{F1B8A97C-0345-4ADA-B9A2-DD07629B1CB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossArchitecture.ApplicationServices.IRing", "CrossArchitecture.ApplicationServices.IRing\CrossArchitecture.ApplicationServices.IRing.csproj", "{598484FC-88FD-486F-B428-78A21EBA737E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.ApplicationServices.IntegrationRing", "CompositionChain\CrossArchitecture.ApplicationServices.IntegrationRing\CrossArchitecture.ApplicationServices.IntegrationRing.csproj", "{598484FC-88FD-486F-B428-78A21EBA737E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XX - CompositionChain", "XX - CompositionChain", "{5F972B53-B8EA-42AD-A05B-B020D7BAC6F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XY - Test", "XY - Test", "{6B4EAFEC-F7D3-44DB-ABD0-A712595D8EF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XZ - Docs", "XZ - Docs", "{DBAEED6C-8FB6-4F16-B479-9E99DBF88379}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +56,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7F07D00-01DD-482D-A96E-EF7F50500B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F07D00-01DD-482D-A96E-EF7F50500B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F07D00-01DD-482D-A96E-EF7F50500B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F07D00-01DD-482D-A96E-EF7F50500B2E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8CAB7E43-29C2-4842-848C-0081DB75C65F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8CAB7E43-29C2-4842-848C-0081DB75C65F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CAB7E43-29C2-4842-848C-0081DB75C65F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -75,10 +88,10 @@ Global
 		{B9CB51A7-2042-47FB-A1AB-63DE9999F608}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9CB51A7-2042-47FB-A1AB-63DE9999F608}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9CB51A7-2042-47FB-A1AB-63DE9999F608}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D7F07D00-01DD-482D-A96E-EF7F50500B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7F07D00-01DD-482D-A96E-EF7F50500B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7F07D00-01DD-482D-A96E-EF7F50500B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7F07D00-01DD-482D-A96E-EF7F50500B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F66BD27A-7FF8-4D7E-98BA-13605DB5D344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F66BD27A-7FF8-4D7E-98BA-13605DB5D344}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F66BD27A-7FF8-4D7E-98BA-13605DB5D344}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F66BD27A-7FF8-4D7E-98BA-13605DB5D344}.Release|Any CPU.Build.0 = Release|Any CPU
 		{003BBEE0-D3F2-44AE-8FDA-F803B1E4B563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{003BBEE0-D3F2-44AE-8FDA-F803B1E4B563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{003BBEE0-D3F2-44AE-8FDA-F803B1E4B563}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -95,15 +108,12 @@ Global
 		{598484FC-88FD-486F-B428-78A21EBA737E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{598484FC-88FD-486F-B428-78A21EBA737E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{598484FC-88FD-486F-B428-78A21EBA737E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F66BD27A-7FF8-4D7E-98BA-13605DB5D344}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F66BD27A-7FF8-4D7E-98BA-13605DB5D344}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F66BD27A-7FF8-4D7E-98BA-13605DB5D344}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F66BD27A-7FF8-4D7E-98BA-13605DB5D344}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{D7F07D00-01DD-482D-A96E-EF7F50500B2E} = {2421E7B5-6D59-448C-BA40-DFA17DB55D0E}
 		{8CAB7E43-29C2-4842-848C-0081DB75C65F} = {536A0C28-4698-4007-B95B-29B2CEAF85FE}
 		{22EAE65B-4A10-46BB-9D82-17574522E105} = {C6DCD918-2D89-49E2-95DF-738C5D14217E}
 		{3E1E7BC4-00E2-4526-9A93-445F63DF37A4} = {C6DCD918-2D89-49E2-95DF-738C5D14217E}
@@ -111,12 +121,11 @@ Global
 		{BFF7A364-137B-4C0A-A018-F4EADF1835B9} = {FCFCA68A-323A-4ABF-BB61-4EA387C9E180}
 		{FA691C9E-2A28-4A1E-8677-76CCA08F3B52} = {A4112FD7-E942-4969-8F6C-D53688DA76E1}
 		{B9CB51A7-2042-47FB-A1AB-63DE9999F608} = {A4112FD7-E942-4969-8F6C-D53688DA76E1}
-		{D7F07D00-01DD-482D-A96E-EF7F50500B2E} = {2421E7B5-6D59-448C-BA40-DFA17DB55D0E}
-		{003BBEE0-D3F2-44AE-8FDA-F803B1E4B563} = {C6DCD918-2D89-49E2-95DF-738C5D14217E}
-		{0947C209-9D3D-4E1B-B719-9786A9E9F6DB} = {FCFCA68A-323A-4ABF-BB61-4EA387C9E180}
-		{F1B8A97C-0345-4ADA-B9A2-DD07629B1CB4} = {A4112FD7-E942-4969-8F6C-D53688DA76E1}
-		{598484FC-88FD-486F-B428-78A21EBA737E} = {A4112FD7-E942-4969-8F6C-D53688DA76E1}
 		{F66BD27A-7FF8-4D7E-98BA-13605DB5D344} = {049D92D9-4145-401C-A85E-8286E2D37B73}
+		{003BBEE0-D3F2-44AE-8FDA-F803B1E4B563} = {5F972B53-B8EA-42AD-A05B-B020D7BAC6F1}
+		{0947C209-9D3D-4E1B-B719-9786A9E9F6DB} = {5F972B53-B8EA-42AD-A05B-B020D7BAC6F1}
+		{F1B8A97C-0345-4ADA-B9A2-DD07629B1CB4} = {5F972B53-B8EA-42AD-A05B-B020D7BAC6F1}
+		{598484FC-88FD-486F-B428-78A21EBA737E} = {5F972B53-B8EA-42AD-A05B-B020D7BAC6F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8BE49E9F-DCE5-4AAE-BD77-ACAB436601B1}

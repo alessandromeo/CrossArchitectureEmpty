@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>CrossArchitecture.CoreServices</RootNamespace>
+    <RootNamespace>CrossArchitecture.ApplicationServices</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CrossArchitecture.CoreServices\CrossArchitecture.CoreServices.csproj" />
+    <ProjectReference Include="..\..\CrossArchitecture.ApplicationServices\CrossArchitecture.ApplicationServices.csproj" />
   </ItemGroup>
 
 </Project>

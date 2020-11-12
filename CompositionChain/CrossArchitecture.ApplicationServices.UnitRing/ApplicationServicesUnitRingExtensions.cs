@@ -2,7 +2,7 @@
 
 namespace CrossArchitecture.ApplicationServices
 {
-    public static class ApplicationServicesURingExtensions
+    public static class ApplicationServicesUnitRingExtensions
     {
         public static IServiceCollection AddApplicationServicesUnit(this IServiceCollection services) =>
             services.AddSingleton<IApplicationService, ApplicationService>();

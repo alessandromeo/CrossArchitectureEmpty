@@ -2,7 +2,7 @@
 
 namespace CrossArchitecture.Infrastructure
 {
-    public static class InfrastructureIRingExtensions
+    public static class InfrastructureIntegrationRingExtensions
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services) =>
             services.AddSingleton<IInfrastructureEndpoint, InfrastructureEndpoint>();

@@ -1,4 +1,3 @@
-using CrossArchitecture.ApplicationInterface;
 using CrossArchitecture.ApplicationServices;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -13,8 +12,7 @@ namespace CrossArchitecture.ApplicationHost
         {
             services.
                 AddApplicationServices().
-                AddControllers().
-                AddApplicationPart(typeof(ApplicationInterfaceReflectionHook).Assembly);
+                AddControllers();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
