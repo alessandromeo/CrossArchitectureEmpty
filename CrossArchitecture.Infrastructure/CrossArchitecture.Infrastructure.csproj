@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CrossArchitecture.InfrastructureInterface\CrossArchitecture.Infrastructure.Interface.csproj" />
+    <ProjectReference Include="..\CrossArchitecture.Infrastructure.Interface\CrossArchitecture.Infrastructure.Interface.csproj" />
   </ItemGroup>
 
 </Project>

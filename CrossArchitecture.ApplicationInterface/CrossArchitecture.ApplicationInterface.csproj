@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CrossArchitecture.ApplicationServicesInterface\CrossArchitecture.ApplicationServices.Interface.csproj" />
+    <ProjectReference Include="..\CrossArchitecture.ApplicationServices.Interface\CrossArchitecture.ApplicationServices.Interface.csproj" />
   </ItemGroup>
 
 </Project>

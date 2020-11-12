@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.Applicati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.CoreModel", "CrossArchitecture.CoreModel\CrossArchitecture.CoreModel.csproj", "{8CAB7E43-29C2-4842-848C-0081DB75C65F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.CoreServices.Interface", "CrossArchitecture.CoreServicesInterface\CrossArchitecture.CoreServices.Interface.csproj", "{22EAE65B-4A10-46BB-9D82-17574522E105}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.CoreServices.Interface", "CrossArchitecture.CoreServices.Interface\CrossArchitecture.CoreServices.Interface.csproj", "{22EAE65B-4A10-46BB-9D82-17574522E105}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.CoreServices", "CrossArchitecture.CoreServices\CrossArchitecture.CoreServices.csproj", "{3E1E7BC4-00E2-4526-9A93-445F63DF37A4}"
 EndProject
@@ -21,11 +21,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Infrastructure", "02 -
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.Infrastructure", "CrossArchitecture.Infrastructure\CrossArchitecture.Infrastructure.csproj", "{31DA9485-22B7-4610-8AEC-39E2454E69F6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.Infrastructure.Interface", "CrossArchitecture.InfrastructureInterface\CrossArchitecture.Infrastructure.Interface.csproj", "{BFF7A364-137B-4C0A-A018-F4EADF1835B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.Infrastructure.Interface", "CrossArchitecture.Infrastructure.Interface\CrossArchitecture.Infrastructure.Interface.csproj", "{BFF7A364-137B-4C0A-A018-F4EADF1835B9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Application Services", "03 - Application Services", "{A4112FD7-E942-4969-8F6C-D53688DA76E1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.ApplicationServices.Interface", "CrossArchitecture.ApplicationServicesInterface\CrossArchitecture.ApplicationServices.Interface.csproj", "{FA691C9E-2A28-4A1E-8677-76CCA08F3B52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.ApplicationServices.Interface", "CrossArchitecture.ApplicationServices.Interface\CrossArchitecture.ApplicationServices.Interface.csproj", "{FA691C9E-2A28-4A1E-8677-76CCA08F3B52}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossArchitecture.ApplicationServices", "CrossArchitecture.ApplicationServices\CrossArchitecture.ApplicationServices.csproj", "{B9CB51A7-2042-47FB-A1AB-63DE9999F608}"
 EndProject

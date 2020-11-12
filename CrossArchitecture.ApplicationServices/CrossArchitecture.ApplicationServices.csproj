@@ -5,9 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CrossArchitecture.ApplicationServicesInterface\CrossArchitecture.ApplicationServices.Interface.csproj" />
-    <ProjectReference Include="..\CrossArchitecture.CoreServicesInterface\CrossArchitecture.CoreServices.Interface.csproj" />
-    <ProjectReference Include="..\CrossArchitecture.InfrastructureInterface\CrossArchitecture.Infrastructure.Interface.csproj" />
+    <ProjectReference Include="..\CrossArchitecture.ApplicationServices.Interface\CrossArchitecture.ApplicationServices.Interface.csproj" />
+    <ProjectReference Include="..\CrossArchitecture.CoreServices.Interface\CrossArchitecture.CoreServices.Interface.csproj" />
+    <ProjectReference Include="..\CrossArchitecture.Infrastructure.Interface\CrossArchitecture.Infrastructure.Interface.csproj" />
   </ItemGroup>
 
 </Project>
