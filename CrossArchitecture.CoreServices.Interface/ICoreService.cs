@@ -1,9 +1,10 @@
 ﻿using CrossArchitecture.CoreModel;
+using System.Collections.Generic;
 
 namespace CrossArchitecture.CoreServices
 {
     public interface ICoreService
     {
-        CoreModelEntity EscapeAndPrefix(CoreModelEntity coreModelEntity, string prefix);
+        void EscapeFirstByPrefix(ICollection<Entity> entities, string prefix);
     }
 }

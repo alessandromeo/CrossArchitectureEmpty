@@ -8,9 +8,7 @@ namespace CrossArchitecture.ApplicationInterface.Controllers
     public class HomeController : ControllerBase
     {
         [HttpGet]
-        public IActionResult Get(string value)
-        {
-            return Redirect("escapeprefixandsend/Hello%20World%21");
-        }
+        public IActionResult Get() =>
+            Redirect("Test/Good%20morning%21-Hello%20World%21-Hello%20Everybody%21");
     }
 }

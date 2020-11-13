@@ -1,6 +1,7 @@
 ﻿using CrossArchitecture.CoreModel;
 using CrossArchitecture.CoreServices;
 using CrossArchitecture.Infrastructure;
+using System.Collections.Generic;
 
 namespace CrossArchitecture.ApplicationServices
 {
@@ -16,11 +17,10 @@ namespace CrossArchitecture.ApplicationServices
             _infrastructureEndpoint = infrastructureEndpoint;
         }
 
-        public CoreModelEntity EscapePrefixAndSend(CoreModelEntity coreModelEntity, string prefix, string filePath)
+        public string EscapeFirstByPrefixAndSend(ICollection<Entity> entities, string prefix)
         {
-            var resultingEntity = _coreService.EscapeAndPrefix(coreModelEntity, prefix);
-            _infrastructureEndpoint.Send(resultingEntity, filePath);
-            return resultingEntity;
+            _coreService.EscapeFirstByPrefix(entities, prefix);
+            return _infrastructureEndpoint.Send(entities);
         }
     }
 }

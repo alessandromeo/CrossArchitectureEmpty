@@ -1,9 +1,10 @@
 ﻿using CrossArchitecture.CoreModel;
+using System.Collections.Generic;
 
 namespace CrossArchitecture.Infrastructure
 {
     public interface IInfrastructureEndpoint
     {
-        void Send(CoreModelEntity coreModelEntity, string filePath);
+        string Send(IEnumerable<Entity> entities);
     }
 }
